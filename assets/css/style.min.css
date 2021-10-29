@@ -1,0 +1,15 @@
+@import url("./blocks/header.min.css");
+@import url("./blocks/footer.min.css");
+@import url("./blocks/products.min.css");
+@import url("./blocks/video.min.css");
+@font-face {
+  font-family: Gilroy;
+  src: url(../../assets/fonts/Gilroy-Regular.woff);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Gilroy;
+}

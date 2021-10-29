@@ -1,0 +1,11 @@
+@import url("./blocks/header.min.css");
+
+@import url("./blocks/footer.min.css");
+
+@import url("./blocks/cart.min.css");
+
+body {
+    background-color: black;
+    font-size: 21px;
+    color: white;
+}

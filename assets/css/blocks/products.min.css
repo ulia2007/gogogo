@@ -1,0 +1,53 @@
+.product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+}
+
+.product {
+  background-color: aqua;
+  overflow: hidden;
+  position: relative;
+  /*     &__hover{
+          position: absolute;
+          background-color: black;
+          width: 100%;
+          height: 100%;
+          top: 0;
+
+          .btn{
+              color
+              background
+              width
+      } */
+}
+.product__title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #3A3A3A;
+  font-weight: 600;
+}
+.product__catigory {
+  color: #898989;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.product__img {
+  width: 100%;
+}
+
+.price__current {
+  font-size: 20px;
+  color: #3A3A3A;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-right: 16px;
+}
+.price__old {
+  columns: #B0B0B0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: line-through;
+}
